@@ -1,0 +1,54 @@
+body,html{
+	height: 100%;
+	width: 100%;
+}
+.main-container{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main-container > .login,
+.main-container > .hero-body{
+	height: auto;
+	width: 100%;
+	max-width: 400px;
+	min-width: 300px;
+}
+
+.form-inline{
+	display: inline-flex;
+}
+body{
+	background-image: url();
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+.main-container > .login{
+	background-color: yellowgreen;
+}
+.navbar-menu,.navbar-item{
+	background-color: yellowgreen;
+}
+.button{
+	background-color: black !important;
+}
+.button:hover{
+	background-color: grey!important;
+}
+h2{
+	color: red !important;
+}
+.has-text-right{
+	color: red !important
+}
+strong{
+	color: blue !important;
+}
+.pb-6{
+	background-color: white !important;
+	opacity: 90% !important;
+
+}
